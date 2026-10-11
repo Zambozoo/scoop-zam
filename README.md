@@ -1,5 +1,5 @@
 # Scoop Bucket for Zam
-
+![Zam Logo](assets/logo_banner.png)
 Official [Scoop](https://scoop.sh) bucket for the **Zam** programming language.
 
 ## Installation
