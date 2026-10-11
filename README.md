@@ -26,7 +26,7 @@ scoop install gcc
 Once installed, verify the installation by checking the version:
 
 ```powerShell
-zam --version
+zam -h
 ```
 
 ## Maintenance & Updates
