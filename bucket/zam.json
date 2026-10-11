@@ -6,11 +6,11 @@
     "architecture": {
       "64bit": {
         "url": "https://github.com/Zambozoo/zam/releases/download/v0.1.4/zam-v0.1.4-windows-amd64.zip",
-        "hash": "74443d8b92917441e5c20ef5d71687bb20c05c1225379e95fd1a222aae2fafe7"
+        "hash": "563f346288a4c13b7ea14f28fadfbd7fda178c22adf813e7f3221e013fd8b8c6"
       },
       "arm64": {
         "url": "https://github.com/Zambozoo/zam/releases/download/v0.1.4/zam-v0.1.-windows-arm64.zip",
-        "hash": "dab01d668a5b2fc296c76d207787e08ed14d97742a0e89f816339c48f33b6458"
+        "hash": "b032e477af68b3802ce7130de9e4a0cfd8e94625d48c785619299559ff56e414"
       }
     },
     "bin": "zam.exe",
@@ -22,7 +22,13 @@
       "architecture": {
         "64bit": {
           "url": "https://github.com/Zambozoo/zam/releases/download/v$version/zam-v$version-windows-amd64.zip"
+        },
+        "arm64": {
+          "url": "https://github.com/Zambozoo/zam/releases/download/v$version/zam-v$version-windows-arm64.zip"
         }
+      },
+      "hash": {
+        "url": "https://github.com/Zambozoo/zam/releases/download/v$version/checksums.txt"
       }
     }
   }
