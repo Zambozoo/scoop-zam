@@ -1,34 +1,34 @@
 {
-    "version": "0.1.5",
+    "version": "0.1.7",
     "description": "The Zam programming language",
     "homepage": "https://github.com/Zambozoo/zam",
     "license": "MIT",
     "architecture": {
-      "64bit": {
-        "url": "https://github.com/Zambozoo/zam/releases/download/v0.1.5/zam-v0.1.5-windows-amd64.zip",
-        "hash": "ecd9abcb1119962ffe9845ee906a91c34c6240416a82336cf8078c47f286ec7f"
-      },
-      "arm64": {
-        "url": "https://github.com/Zambozoo/zam/releases/download/v0.1.5/zam-v0.1.5-windows-arm64.zip",
-        "hash": "249c5ab501d01646fde34939d31a4894328560ca50165f821bb1801a6154efb8"
-      }
+        "64bit": {
+            "url": "https://github.com/Zambozoo/zam/releases/download/v0.1.7/zam-v0.1.7-windows-amd64.zip",
+            "hash": "2ef6f9ffea5f2326170bbaea5da76cb07abb4303af6e2124fbd2d3f4c45c23d1"
+        },
+        "arm64": {
+            "url": "https://github.com/Zambozoo/zam/releases/download/v0.1.7/zam-v0.1.7-windows-arm64.zip",
+            "hash": "5875dccaf1636a5dd75fc6235a2783181b2076c540b6e1cd5c5ead3daeacdf01"
+        }
     },
     "bin": "zam.exe",
     "suggest": {
-      "GCC Compiler": "main/gcc"
+        "zig": "main/zig"
     },
     "checkver": "github",
     "autoupdate": {
-      "architecture": {
-        "64bit": {
-          "url": "https://github.com/Zambozoo/zam/releases/download/v$version/zam-v$version-windows-amd64.zip"
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/Zambozoo/zam/releases/download/v$version/zam-v$version-windows-amd64.zip"
+            },
+            "arm64": {
+                "url": "https://github.com/Zambozoo/zam/releases/download/v$version/zam-v$version-windows-arm64.zip"
+            }
         },
-        "arm64": {
-          "url": "https://github.com/Zambozoo/zam/releases/download/v$version/zam-v$version-windows-arm64.zip"
+        "hash": {
+            "url": "https://github.com/Zambozoo/zam/releases/download/v$version/checksums.txt"
         }
-      },
-      "hash": {
-        "url": "https://github.com/Zambozoo/zam/releases/download/v$version/checksums.txt"
-      }
     }
-  }
+}
