@@ -1,16 +1,16 @@
 {
-    "version": "0.1.8",
+    "version": "0.1.9",
     "description": "The Zam programming language",
     "homepage": "https://github.com/Zambozoo/zam",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/Zambozoo/zam/releases/download/v0.1.8/zam-v0.1.8-windows-amd64.zip",
-            "hash": "bbd83e3018011fcdca76fd78f95cdce7e4505e84f7293f456ae4f43f6c2d8e0f"
+            "url": "https://github.com/Zambozoo/zam/releases/download/v0.1.9/zam-v0.1.9-windows-amd64.zip",
+            "hash": "9244f803e32004a2c1f6fd80732f94f26faf30ae7b5a25043ba98869a3efe9aa"
         },
         "arm64": {
-            "url": "https://github.com/Zambozoo/zam/releases/download/v0.1.8/zam-v0.1.8-windows-arm64.zip",
-            "hash": "e863e273924313b641ddc30bc88f131606d4e002ae8d9a1c7871e0fdec4c16c3"
+            "url": "https://github.com/Zambozoo/zam/releases/download/v0.1.9/zam-v0.1.9-windows-arm64.zip",
+            "hash": "9ea56b1b1357b1936d4ad27f61d2a3e7a6bcc4ab8ea5f5c32052b6e74017add4"
         }
     },
     "bin": "zam.exe",
